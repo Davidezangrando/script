@@ -21,7 +21,7 @@ TOKEN_ADDRESS = os.getenv('TOKEN_ADDRESS')
 TEST_MODE = False
 
 # Inizializza Firebase
-cred = credentials.Certificate('/Users/davidezangrando/NFT/FIVERR/ordini/riccardo/FINANCE/sito-finale/prova-produzione/powerPlace-Finance/server-requests/powermining-retrieve-firebase-adminsdk-rt0x4-664e7464fc.json')
+cred = credentials.Certificate('/home/ubuntu/script/powermining-retrieve-firebase-adminsdk-rt0x4-664e7464fc.json')
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://powermining-retrieve-default-rtdb.firebaseio.com/'
 })
